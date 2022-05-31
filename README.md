@@ -7,7 +7,7 @@ provide it, and populate as much of the dbt project as possible
 1. Install using `pip install dbt-init`
 2. To create a new client project run a command like following:
 ```bash
-$ dbt-init --client jaffle-shop --warehouse snowflake --target-dir ~/clients/
+$ dbt-init --client jaffle-shop --warehouse snowflake --target_dir ~/clients/
 ```
 You can also check the available arguments with `dbt-init --help`
 
